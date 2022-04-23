@@ -34,7 +34,7 @@ class diet_rec extends StatelessWidget {
                       height: size.height * 0.05,
                     ),
                     Text(
-                      "Meditation",
+                      "Diet Recommendations",
                       style: Theme.of(context)
                           .textTheme
                           .headline4
@@ -89,7 +89,7 @@ class diet_rec extends StatelessWidget {
                     ),
                     SizedBox(height: 20),
                     Text(
-                      "Meditation",
+                      "Diet Recommendations",
                       style: Theme.of(context)
                           .textTheme
                           .headline6

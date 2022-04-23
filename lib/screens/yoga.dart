@@ -34,7 +34,7 @@ class yoga extends StatelessWidget {
                       height: size.height * 0.05,
                     ),
                     Text(
-                      "Meditation",
+                      "Yoga",
                       style: Theme.of(context)
                           .textTheme
                           .headline4
@@ -89,7 +89,7 @@ class yoga extends StatelessWidget {
                     ),
                     SizedBox(height: 20),
                     Text(
-                      "Meditation",
+                      "Yoga",
                       style: Theme.of(context)
                           .textTheme
                           .headline6

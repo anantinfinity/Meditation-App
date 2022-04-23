@@ -34,7 +34,7 @@ class kegel_ex extends StatelessWidget {
                       height: size.height * 0.05,
                     ),
                     Text(
-                      "Meditation",
+                      "Kegel Exercises",
                       style: Theme.of(context)
                           .textTheme
                           .headline4
@@ -89,7 +89,7 @@ class kegel_ex extends StatelessWidget {
                     ),
                     SizedBox(height: 20),
                     Text(
-                      "Meditation",
+                      "Kegel Exercises",
                       style: Theme.of(context)
                           .textTheme
                           .headline6
