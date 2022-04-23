@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:meditation_app/constants.dart';
+import 'package:meditation_app/screens/diet_rec.dart';
+import 'package:meditation_app/screens/kegel_ex.dart';
+import 'package:meditation_app/screens/meditation.dart';
 
 class BottomNavBar extends StatelessWidget {
   const BottomNavBar({
@@ -19,15 +22,42 @@ class BottomNavBar extends StatelessWidget {
           BottomNavItem(
             title: "Today",
             svgScr: "assets/icons/calendar.svg",
+            press: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) =>
+                      diet_rec(), // make screen and push to route
+                ),
+              );
+            },
           ),
           BottomNavItem(
             title: "All Exercises",
             svgScr: "assets/icons/gym.svg",
             isActive: true,
+            press: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) =>
+                      kegel_ex(), // make screen and push to route
+                ),
+              );
+            },
           ),
           BottomNavItem(
             title: "Settings",
             svgScr: "assets/icons/Settings.svg",
+            press: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) =>
+                      meditation(), // make screen and push to route
+                ),
+              );
+            },
           ),
         ],
       ),
