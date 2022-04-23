@@ -68,7 +68,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    "Good Mornign \nShishir",
+                    "Good Morning \nPimPim",
                     style: Theme.of(context)
                         .textTheme
                         .headline4
