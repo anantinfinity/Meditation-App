@@ -4,7 +4,8 @@ import 'package:meditation_app/constants.dart';
 import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 import 'package:meditation_app/widgets/search_bar.dart';
 
-class DetailsScreen extends StatelessWidget {
+// ignore: camel_case_types
+class kegel_ex extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
@@ -36,7 +37,7 @@ class DetailsScreen extends StatelessWidget {
                       "Meditation",
                       style: Theme.of(context)
                           .textTheme
-                          .display1
+                          .headline4
                           .copyWith(fontWeight: FontWeight.w900),
                     ),
                     SizedBox(height: 10),
@@ -91,7 +92,7 @@ class DetailsScreen extends StatelessWidget {
                       "Meditation",
                       style: Theme.of(context)
                           .textTheme
-                          .title
+                          .headline6
                           .copyWith(fontWeight: FontWeight.bold),
                     ),
                     Container(
@@ -123,7 +124,7 @@ class DetailsScreen extends StatelessWidget {
                               children: <Widget>[
                                 Text(
                                   "Basic 2",
-                                  style: Theme.of(context).textTheme.subtitle,
+                                  style: Theme.of(context).textTheme.subtitle2,
                                 ),
                                 Text("Start your deepen you practice")
                               ],
@@ -203,7 +204,7 @@ class SeassionCard extends StatelessWidget {
                     SizedBox(width: 10),
                     Text(
                       "Session $seassionNum",
-                      style: Theme.of(context).textTheme.subtitle,
+                      style: Theme.of(context).textTheme.subtitle2,
                     )
                   ],
                 ),
