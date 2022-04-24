@@ -23,6 +23,11 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: kBackgroundColor,
         textTheme: Theme.of(context).textTheme.apply(displayColor: kTextColor),
       ),
+      darkTheme: ThemeData.light().copyWith(
+        textTheme: Theme.of(context).textTheme.apply(displayColor: kTextColor),
+        // scaffoldBackgroundColor: Color(0xFF101427),
+        scaffoldBackgroundColor: Color(0xFFFFFFFF),
+      ),
       home: HomeScreen(),
     );
   }
