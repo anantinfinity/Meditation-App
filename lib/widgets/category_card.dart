@@ -10,7 +10,7 @@ class CategoryCard extends StatelessWidget {
     Key key,
     this.svgSrc,
     this.title,
-    this.press,
+    this.press, TextStyle style,
   }) : super(key: key);
 
   @override

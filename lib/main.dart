@@ -19,15 +19,38 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Meditation App',
       theme: ThemeData(
-        fontFamily: "Cairo",
-        scaffoldBackgroundColor: kBackgroundColor,
-        textTheme: Theme.of(context).textTheme.apply(displayColor: kTextColor),
-      ),
-      darkTheme: ThemeData.light().copyWith(
-        textTheme: Theme.of(context).textTheme.apply(displayColor: kTextColor),
-        // scaffoldBackgroundColor: Color(0xFF101427),
-        scaffoldBackgroundColor: Color(0xFFFFFFFF),
-      ),
+          fontFamily: "Cairo",
+          scaffoldBackgroundColor: kBackgroundColor,
+          textTheme:
+              Theme.of(context).textTheme.apply(displayColor: kTextColor),
+
+          //theming the app
+          primaryColor: Colors.white,
+          primaryColorBrightness: Brightness.light,
+          brightness: Brightness.light,
+          primaryColorDark: Colors.black,
+          canvasColor: Colors.white,
+          // next line is important!
+          // ignore: deprecated_member_use
+          appBarTheme: AppBarTheme(brightness: Brightness.light)),
+      darkTheme: ThemeData(
+          primaryColor: Colors.black,
+          primaryColorBrightness: Brightness.dark,
+          primaryColorLight: Colors.black,
+          brightness: Brightness.dark,
+          primaryColorDark: Colors.black,
+          indicatorColor: Colors.white,
+          canvasColor: Colors.black,
+          // next line is important!
+          // ignore: deprecated_member_use
+          appBarTheme: AppBarTheme(brightness: Brightness.dark)),
+
+      // darkTheme: ThemeData.light().copyWith(
+      //   textTheme: Theme.of(context).textTheme.apply(displayColor: kTextColor),
+      //   // scaffoldBackgroundColor: Color(0xFF101427),
+      //   scaffoldBackgroundColor: Color(0xFFFFFFFF),
+      // ),
+
       home: HomeScreen(),
     );
   }
