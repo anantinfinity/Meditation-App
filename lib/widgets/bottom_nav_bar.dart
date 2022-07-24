@@ -3,7 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:meditation_app/constants.dart';
 import 'package:meditation_app/screens/diet_rec.dart';
 import 'package:meditation_app/screens/kegel_ex.dart';
-import 'package:meditation_app/screens/meditation.dart';
+import 'package:meditation_app/screens/settings.dart';
 
 class BottomNavBar extends StatelessWidget {
   const BottomNavBar({
@@ -47,14 +47,14 @@ class BottomNavBar extends StatelessWidget {
             },
           ),
           BottomNavItem(
-            title: "Settings",
+            title: "About",
             svgScr: "assets/icons/Settings.svg",
             press: () {
               Navigator.push(
                 context,
                 MaterialPageRoute(
                   builder: (context) =>
-                      meditation(), // make screen and push to route
+                      settings(), // make screen and push to route
                 ),
               );
             },
