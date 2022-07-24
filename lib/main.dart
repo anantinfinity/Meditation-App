@@ -8,6 +8,23 @@ import 'package:meditation_app/screens/yoga.dart';
 import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 import 'package:meditation_app/widgets/category_card.dart';
 import 'package:meditation_app/widgets/search_bar.dart';
+import 'package:url_launcher/url_launcher.dart';
+
+class Home extends StatelessWidget {
+  launchURL(String url) async {
+    if (await launch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    throw UnimplementedError();
+  }
+}
 
 void main() => runApp(MyApp());
 

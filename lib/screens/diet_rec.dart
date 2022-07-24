@@ -3,6 +3,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
 import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 import 'package:meditation_app/widgets/search_bar.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 // ignore: camel_case_types
 class diet_rec extends StatelessWidget {
@@ -63,27 +64,46 @@ class diet_rec extends StatelessWidget {
                         SeassionCard(
                           seassionNum: 1,
                           isDone: true,
-                          press: () {},
+                          // press: () {},
+                          press: () {
+                            const url = 'https://www.youtube.com';
+                            launch(url);
+                          },
                         ),
                         SeassionCard(
                           seassionNum: 2,
-                          press: () {},
+                          press: () {
+                            const url = 'https://www.youtube.com';
+                            launch(url);
+                          },
                         ),
                         SeassionCard(
                           seassionNum: 3,
-                          press: () {},
+                          press: () {
+                            const url = 'https://www.youtube.com';
+                            launch(url);
+                          },
                         ),
                         SeassionCard(
                           seassionNum: 4,
-                          press: () {},
+                          press: () {
+                            const url = 'https://www.youtube.com';
+                            launch(url);
+                          },
                         ),
                         SeassionCard(
                           seassionNum: 5,
-                          press: () {},
+                          press: () {
+                            const url = 'https://www.youtube.com';
+                            launch(url);
+                          },
                         ),
                         SeassionCard(
                           seassionNum: 6,
-                          press: () {},
+                          press: () {
+                            const url = 'https://www.youtube.com';
+                            launch(url);
+                          },
                         ),
                       ],
                     ),
@@ -157,6 +177,7 @@ class SeassionCard extends StatelessWidget {
     this.seassionNum,
     this.isDone = false,
     this.press,
+    Null Function() onPressed,
   }) : super(key: key);
 
   @override
