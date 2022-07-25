@@ -67,6 +67,7 @@ class HomeScreen extends StatelessWidget {
                       child: SvgPicture.asset("assets/icons/menu.svg"),
                     ),
                   ),
+                  SizedBox(height: 40),
                   Text(
                     "Good Morning \nPimPim",
                     style: Theme.of(context)
