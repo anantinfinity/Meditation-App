@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:meditation_app/constants.dart';
 import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 import 'package:meditation_app/widgets/search_bar.dart';
@@ -32,16 +31,16 @@ class diet_rec extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     SizedBox(
-                      height: size.height * 0.05,
+                      height: 110,
                     ),
                     Text(
-                      "Diet Recommendations",
+                      "Diet\nRecommendations",
                       style: Theme.of(context)
                           .textTheme
                           .headline4
                           .copyWith(fontWeight: FontWeight.w900),
                     ),
-                    SizedBox(height: 10),
+                    SizedBox(height: 20),
                     Text(
                       "3-10 MIN Course",
                       style: TextStyle(fontWeight: FontWeight.bold),
@@ -57,6 +56,7 @@ class diet_rec extends StatelessWidget {
                       width: size.width * .5, // it just take the 50% width
                       child: SearchBar(),
                     ),
+                    SizedBox(height: 70),
                     Wrap(
                       spacing: 20,
                       runSpacing: 20,
@@ -107,56 +107,6 @@ class diet_rec extends StatelessWidget {
                         ),
                       ],
                     ),
-                    SizedBox(height: 20),
-                    Text(
-                      "Diet Recommendations",
-                      style: Theme.of(context)
-                          .textTheme
-                          .headline6
-                          .copyWith(fontWeight: FontWeight.bold),
-                    ),
-                    Container(
-                      margin: EdgeInsets.symmetric(vertical: 20),
-                      padding: EdgeInsets.all(10),
-                      height: 90,
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(13),
-                        boxShadow: [
-                          BoxShadow(
-                            offset: Offset(0, 17),
-                            blurRadius: 23,
-                            spreadRadius: -13,
-                            color: kShadowColor,
-                          ),
-                        ],
-                      ),
-                      child: Row(
-                        children: <Widget>[
-                          SvgPicture.asset(
-                            "assets/icons/Meditation_women_small.svg",
-                          ),
-                          SizedBox(width: 20),
-                          Expanded(
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: <Widget>[
-                                Text(
-                                  "Basic 2",
-                                  style: Theme.of(context).textTheme.subtitle2,
-                                ),
-                                Text("Start your deepen you practice")
-                              ],
-                            ),
-                          ),
-                          Padding(
-                            padding: EdgeInsets.all(10),
-                            child: SvgPicture.asset("assets/icons/Lock.svg"),
-                          ),
-                        ],
-                      ),
-                    )
                   ],
                 ),
               ),
@@ -210,8 +160,10 @@ class SeassionCard extends StatelessWidget {
                 child: Row(
                   children: <Widget>[
                     Container(
-                      height: 42,
-                      width: 43,
+                      // height: 42,
+                      // width: 43,
+                      height: 50,
+                      width: 50,
                       decoration: BoxDecoration(
                         color: isDone ? kBlueColor : Colors.white,
                         shape: BoxShape.circle,
