@@ -84,7 +84,7 @@ class HomeScreen extends StatelessWidget {
                       child: SvgPicture.asset("assets/icons/menu.svg"),
                     ),
                   ),
-                  SizedBox(height: 40),
+                  SizedBox(height: 30),
                   Text(
                     "Good Morning \nPimPim",
                     style: Theme.of(context)
@@ -93,6 +93,9 @@ class HomeScreen extends StatelessWidget {
                         .copyWith(fontWeight: FontWeight.w900),
                   ),
                   SearchBar(),
+                  SizedBox(
+                    height: 10,
+                  ),
                   Expanded(
                     child: GridView.count(
                       crossAxisCount: 2,
