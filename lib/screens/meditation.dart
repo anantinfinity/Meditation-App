@@ -65,42 +65,42 @@ class meditation extends StatelessWidget {
                           seassionNum: 1,
                           isDone: true,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=5vI8Kh3-epg&list=PLgdxvG3Ulbidz8n_l3rZdcAADnDJ6NFHO&index=1';
                             launch(url);
                           },
                         ),
                         SeassionCard(
                           seassionNum: 2,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=fkgzQsxdn9I&list=PLgdxvG3Ulbidz8n_l3rZdcAADnDJ6NFHO&index=2';
                             launch(url);
                           },
                         ),
                         SeassionCard(
                           seassionNum: 3,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=lVx3mFxML80&list=PLgdxvG3Ulbidz8n_l3rZdcAADnDJ6NFHO&index=3';
                             launch(url);
                           },
                         ),
                         SeassionCard(
                           seassionNum: 4,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=YF_P1ZzYgjA&list=PLgdxvG3Ulbidz8n_l3rZdcAADnDJ6NFHO&index=4';
                             launch(url);
                           },
                         ),
                         SeassionCard(
                           seassionNum: 5,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=Xl_B45DpMLU&list=PLgdxvG3Ulbidz8n_l3rZdcAADnDJ6NFHO&index=5';
                             launch(url);
                           },
                         ),
                         SeassionCard(
                           seassionNum: 6,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=ZToicYcHIOU&list=PLgdxvG3Ulbidz8n_l3rZdcAADnDJ6NFHO&index=6';
                             launch(url);
                           },
                         ),

@@ -65,42 +65,42 @@ class kegel_ex extends StatelessWidget {
                           seassionNum: 1,
                           isDone: true,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=qghJgepDIc0&list=PLRCgg2aTq5NXcDKbx-6nxh58v_Qdd0Xnx&index=1';
                             launch(url);
                           },
                         ),
                         SeassionCard(
                           seassionNum: 2,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=l6l_n6dEEbk&list=PLRCgg2aTq5NXcDKbx-6nxh58v_Qdd0Xnx&index=2';
                             launch(url);
                           },
                         ),
                         SeassionCard(
                           seassionNum: 3,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=_0Ni_ogNGCA&list=PLRCgg2aTq5NXcDKbx-6nxh58v_Qdd0Xnx&index=3';
                             launch(url);
                           },
                         ),
                         SeassionCard(
                           seassionNum: 4,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=fXwpPooWBnU&list=PLRCgg2aTq5NXcDKbx-6nxh58v_Qdd0Xnx&index=4';
                             launch(url);
                           },
                         ),
                         SeassionCard(
                           seassionNum: 5,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=8rbL79sMOrI&list=PLRCgg2aTq5NXcDKbx-6nxh58v_Qdd0Xnx&index=5';
                             launch(url);
                           },
                         ),
                         SeassionCard(
                           seassionNum: 6,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=H1TNg_D3AqQ&list=PLRCgg2aTq5NXcDKbx-6nxh58v_Qdd0Xnx&index=6';
                             launch(url);
                           },
                         ),

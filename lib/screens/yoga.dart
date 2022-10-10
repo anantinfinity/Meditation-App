@@ -65,42 +65,42 @@ class yoga extends StatelessWidget {
                           seassionNum: 1,
                           isDone: true,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=wN18eRtzhZs&list=PLVwtlQVBhr0srfmlfMoEggZU4Mj2_2-2H&index=1';
                             launch(url);
                           },
                         ),
                         SeassionCard(
                           seassionNum: 2,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=KIwVHztX03U&list=PLVwtlQVBhr0srfmlfMoEggZU4Mj2_2-2H&index=2';
                             launch(url);
                           },
                         ),
                         SeassionCard(
                           seassionNum: 3,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=FVJDbfns7Q8&list=PLVwtlQVBhr0srfmlfMoEggZU4Mj2_2-2H&index=3';
                             launch(url);
                           },
                         ),
                         SeassionCard(
                           seassionNum: 4,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=58hGMKY-yGY&list=PLVwtlQVBhr0srfmlfMoEggZU4Mj2_2-2H&index=4';
                             launch(url);
                           },
                         ),
                         SeassionCard(
                           seassionNum: 5,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=hyaG5c9I-1M&list=PLVwtlQVBhr0srfmlfMoEggZU4Mj2_2-2H&index=5';
                             launch(url);
                           },
                         ),
                         SeassionCard(
                           seassionNum: 6,
                           press: () {
-                            const url = 'https://www.youtube.com';
+                            const url = 'https://www.youtube.com/watch?v=n_3nINHXXJQ&list=PLVwtlQVBhr0srfmlfMoEggZU4Mj2_2-2H&index=6';
                             launch(url);
                           },
                         ),
