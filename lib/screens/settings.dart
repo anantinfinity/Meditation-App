@@ -66,7 +66,7 @@ class settings extends StatelessWidget {
                                     style: Theme.of(context).textTheme.subtitle2
                                     // .copyWith(fontSize: 20),
                                     ),
-                                Text("Sajid Shahriar",
+                                Text("Zannatul Mawa Leion",
                                     style: Theme.of(context)
                                         .textTheme
                                         .bodyText1
@@ -77,7 +77,7 @@ class settings extends StatelessWidget {
                                   "Roll:",
                                   style: Theme.of(context).textTheme.subtitle2,
                                 ),
-                                Text("1810022",
+                                Text("1910048",
                                     style: Theme.of(context)
                                         .textTheme
                                         .bodyText1
@@ -95,7 +95,7 @@ class settings extends StatelessWidget {
                                   "Series",
                                   style: Theme.of(context).textTheme.subtitle2,
                                 ),
-                                Text("18",
+                                Text("19",
                                     style: Theme.of(context)
                                         .textTheme
                                         .bodyText1
