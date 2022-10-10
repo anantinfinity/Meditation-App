@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:meditation_app/constants.dart';
+import 'package:meditation_app/main.dart';
 import 'package:meditation_app/screens/kegel_ex.dart';
 import 'package:meditation_app/screens/settings.dart';
 
@@ -27,7 +28,7 @@ class BottomNavBar extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (context) =>
-                      kegel_ex(), // make screen and push to route
+                      MyApp(), // make screen and push to route
                 ),
               );
             },
